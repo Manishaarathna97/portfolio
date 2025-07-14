@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manishaa Rathna Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="scripts.js"></script>
+  <button onclick="toggleAbout()" class="bg-blue-600 text-white px-4 py-2 rounded">
+  Toggle About Me
+</button>
+
+
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans">
   
@@ -13,7 +19,9 @@
     Manishaa Rathna
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+<div id="about" class="">
+  <!-- About Me content here -->
+<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     <!-- About Me -->
     <section class="mb-6">
       <h2 class="text-lg sm:text-xl font-semibold mb-2">About Me</h2>
@@ -22,6 +30,7 @@
         I love turning ideas into functional, user-friendly experiences.
       </p>
     </section>
+    </div>
 
     <!-- Skills -->
   <section class="mb-6">
@@ -47,14 +56,14 @@
       <a href="#" class="text-blue-600 hover:underline">View Project</a>
       
     </div>
-<div><a href="resume.html" class="text-blue-bold-600 hover:underline">Resume</a></div>
+
     <!-- Project 2 -->
     <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
       <h3 class="text-lg font-bold mb-2">Bug Tracker Tool (Concept)</h3>
       <p class="text-sm mb-2">Mockup of a bug tracking system to practice Laravel backend and reporting features.</p>
       <a href="#" class="text-blue-600 hover:underline">Coming Soon</a>
     </div>
-
+<div><a href="resume.html" class="text-blue-600 font-bold hover:underline">Resume</a></div>
   </div>
 </section>
 
